@@ -53,8 +53,10 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\02.scripts\LoadingSceneController.cs" />
     <Compile Include="Assets\07.imported assets\progress bar\Scripts\SliderScripts.cs" />
     <Compile Include="Assets\02.scripts\size.cs" />
+    <Compile Include="Assets\02.scripts\SceneLoadTester.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\07.imported assets\grass+flower\Shaders\SimpleWater.shader" />
