@@ -1,4 +1,4 @@
-package com.defaultcompany.kakao;
+package com.defaultcompany.jara;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +12,6 @@ import android.util.Base64;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.kakao.auth.ISession;
 import com.kakao.auth.ISessionCallback;
 import com.kakao.auth.Session;
 import com.kakao.network.ErrorResult;

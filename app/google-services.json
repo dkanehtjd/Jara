@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "342791433668",
+    "project_id": "jaljara",
+    "storage_bucket": "jaljara.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342791433668:android:47c55ee478a8b603650891",
+        "android_client_info": {
+          "package_name": "com.defaultcompany.jara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342791433668-82haahfajgvm884e5or8rufpqm39q6pb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.defaultcompany.jara",
+            "certificate_hash": "f69c3590d5b48cf14a7b19b6d740d0967482270e"
+          }
+        },
+        {
+          "client_id": "342791433668-hhbgc51kmb5nhc6pv2tn42oofo5664na.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi7LzbodQpyWmzMPmbJ9I44RgpGpegIgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342791433668-hhbgc51kmb5nhc6pv2tn42oofo5664na.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

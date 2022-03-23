@@ -1,4 +1,4 @@
-package com.defaultcompany.kakao;
+package com.defaultcompany.jara;
 
 import android.app.Application;
 import android.content.Context;
@@ -69,7 +69,7 @@ public class CustomApplication extends Application
 
     public static CustomApplication getGlobalApplicationContext() {
         if(instance == null) {
-            throw new IllegalStateException("this application does not inherit com.kakao.GlobalApplication");
+            throw new IllegalStateException("this application does not inherit com.jara.GlobalApplication");
         }
         return instance;
     }

@@ -1,4 +1,4 @@
-package com.defaultcompany.kakao;
+package com.defaultcompany.jara;
 
 import androidx.appcompat.app.AppCompatActivity;
 
