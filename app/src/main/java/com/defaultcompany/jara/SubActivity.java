@@ -5,15 +5,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.google.firebase.auth.FirebaseAuth;
 import com.kakao.usermgmt.UserManagement;
 import com.kakao.usermgmt.callback.LogoutResponseCallback;
 
 public class SubActivity extends AppCompatActivity {
     private String strNick, strProfileImg, strGender, strAge;
+    private FirebaseAuth mFirebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +50,9 @@ public class SubActivity extends AppCompatActivity {
                     @Override
                     public void onCompleteLogout() {
                         //로그아웃 성공시 수행하는 지점
-                        finish();//현재 액티비티 종료
+                        Intent intent = new Intent(SubActivity.this, MainActivity.class);
+                        startActivity(intent);
+                        finish();
                     }
                 });
             }

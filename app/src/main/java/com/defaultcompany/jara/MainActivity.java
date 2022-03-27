@@ -1,5 +1,6 @@
 package com.defaultcompany.jara;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,8 +11,17 @@ import android.content.pm.Signature;
 import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.kakao.auth.ISessionCallback;
 import com.kakao.auth.Session;
 import com.kakao.network.ErrorResult;
@@ -26,10 +36,62 @@ public class MainActivity extends AppCompatActivity {
 
     private ISessionCallback mSessionCallback;
 
+    private FirebaseAuth mFirebaseAuth; // 파이어베이스 인증처리
+    private DatabaseReference mDatabaseRef; //실시간 데이터베이스
+    private EditText mEtEmail, mEtPwd;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mFirebaseAuth = FirebaseAuth.getInstance();
+        mDatabaseRef = FirebaseDatabase.getInstance().getReference("jaljara");
+
+        mEtEmail = findViewById(R.id.et_loginid);
+        mEtPwd = findViewById(R.id.et_loginpass);
+
+
+        Button btn_login = findViewById(R.id.btn_login);
+        btn_login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                //로그인 요청
+                String strEmail = mEtEmail.getText().toString();
+                String strPwd = mEtPwd.getText().toString();
+
+                mFirebaseAuth.signInWithEmailAndPassword(strEmail, strPwd).addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()){
+                            //로그인 성공
+                            Intent intent = new Intent(MainActivity.this, SubActivity.class);
+                            startActivity(intent);
+                            finish();   // 현재 액티비티 파과
+
+                        } else{
+                            Toast.makeText(MainActivity.this, "로그인 실패", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+
+            }
+        });
+
+
+
+
+        Button btn_register = findViewById(R.id.btn_register);
+
+        btn_register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //회원가입 화면으로 이동
+                Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
+                startActivity(intent);
+            }
+        });
 
         mSessionCallback = new ISessionCallback() {
             @Override
