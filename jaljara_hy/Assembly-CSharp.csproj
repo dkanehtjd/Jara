@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -54,11 +54,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\02.scripts\LoadingSceneController.cs" />
+    <Compile Include="Assets\02.scripts\SceneLoaderBtn.cs" />
     <Compile Include="Assets\07.imported assets\progress bar\Scripts\SliderScripts.cs" />
     <Compile Include="Assets\02.scripts\size.cs" />
-    <Compile Include="Assets\02.scripts\SceneLoadTester.cs" />
-    <Compile Include="Assets\02.scripts\SceneLoaderBtn.cs" />
     <Compile Include="Assets\02.scripts\ScenLoaderBtn.cs" />
+    <Compile Include="Assets\02.scripts\SceneLoadTester.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\07.imported assets\grass+flower\Shaders\SimpleWater.shader" />
