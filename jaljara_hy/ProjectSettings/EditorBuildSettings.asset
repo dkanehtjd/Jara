@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/01. scenes/LoadingScene.unity
     guid: cdc93fb23f1360b49900d64678dfeee4
   - enabled: 1
+    path: Assets/01. scenes/Login.unity
+    guid: 11607e27e0155ea4e86e7b0429d45d06
+  - enabled: 1
+    path: Assets/01. scenes/RewardScenes.unity
+    guid: dbd9f9760181d4a38b3338248fba41cc
+  - enabled: 1
     path: Assets/01. scenes/main.unity
     guid: a653eda47dc25214ba8083a8bce3174f
   m_configObjects: {}
