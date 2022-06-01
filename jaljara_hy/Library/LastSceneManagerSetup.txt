@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/01. scenes/LoadingScene.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
