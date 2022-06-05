@@ -83,6 +83,7 @@
     <Compile Include="Assets/02.scripts/UIOpenBtn.cs" />
     <Compile Include="Assets/02.scripts/Test.cs" />
     <Compile Include="Assets/02.scripts/SignUpBtn.cs" />
+    <Compile Include="Assets/02.scripts/Tips.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
