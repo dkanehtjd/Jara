@@ -43,6 +43,9 @@ public class LoadingSceneController : MonoBehaviour
 
 
         float timer = 0f;
+        float speed = 0.1f;
+
+        //float speed = 2f;
         //씬 로딩이 끝나지 않았다면 계속 반복
         while (!op.isDone)
         {
@@ -56,10 +59,12 @@ public class LoadingSceneController : MonoBehaviour
             else
             {
                 //페이크로딩 진행
-                timer += Time.unscaledDeltaTime;
-                progressBar.fillAmount = Mathf.Lerp(0.9f, 1f, timer);
+                timer += Time.unscaledDeltaTime*speed;
+
+                progressBar.fillAmount = Mathf.Lerp(0.1f, 1f, timer);
                 if (progressBar.fillAmount >= 1f)//로딩 끝나면
                 {
+                    yield return new WaitForSeconds(3f);
                     op.allowSceneActivation = true;
                     yield break;
                 }
