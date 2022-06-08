@@ -1,8 +1,14 @@
-﻿<Properties StartupConfiguration="{F2F27729-E0D6-E8B2-9C58-B7A4AA8095D9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/02.scripts/UIOpenBtn.cs">
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/02.scripts/SceneLoader.cs">
     <Files>
-      <File FileName="Assets/02.scripts/Tips.cs" Line="18" Column="36" />
-      <File FileName="Assets/02.scripts/UIOpenBtn.cs" Line="1" Column="1" />
+      <File FileName="Assets/02.scripts/DialogueSystem.cs" Line="40" Column="22" />
+      <File FileName="Assets/02.scripts/DestroyObject.cs" />
+      <File FileName="Assets/02.scripts/Dialogue.cs" Line="1" Column="1" />
+      <File FileName="Assets/02.scripts/RewardCtr.cs" Line="11" Column="23" />
+      <File FileName="Assets/02.scripts/SceneLoader.cs" Line="17" Column="40" />
+      <File FileName="Assets/02.scripts/SignUpBtn.cs" Line="1" Column="1" />
+      <File FileName="Assets/02.scripts/LoadingSceneController.cs" Line="67" Column="54" />
+      <File FileName="Assets/02.scripts/SceneLoadTester.cs" Line="18" Column="62" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
