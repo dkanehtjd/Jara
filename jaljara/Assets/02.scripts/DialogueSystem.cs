@@ -7,6 +7,7 @@ public class DialogueSystem : MonoBehaviour
 {
     public Text txtName;
     public Text txtSentence;
+    public GameObject gameObject;
 
     Queue<string> sentences = new Queue<string>();
 
@@ -20,12 +21,12 @@ public class DialogueSystem : MonoBehaviour
         {
             sentences.Enqueue(sentence);
         }
-
         Next();
     }
 
     public void Next()
     {
+
         if(sentences.Count==0)
         {
             End();
@@ -36,6 +37,9 @@ public class DialogueSystem : MonoBehaviour
 
     public void End()
     {
-        txtSentence.text = string.Empty;
+        //밑에 이거 왜 필요?
+        //txtSentence.text = string.Empty;
+        //UI OFF
+        gameObject.SetActive(!gameObject.active);
     }
 }

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class DestroyObject : MonoBehaviour
 {
-    [SerializeField] GameObject obj;        //»èÁ¦ÇÒ ¿ÀºêÁ§Æ® ¼±¾ğ
+    [SerializeField] GameObject obj;        //?????? ???????? ????
 
+    //ëŠë‚Œí‘œ ì´ê±° ì™„ì „ íŒŒê´´í•˜ëŠ” ê±° ë§ˆì?
 
     public void DestroyObj()
     {

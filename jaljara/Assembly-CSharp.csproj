@@ -61,7 +61,6 @@
     <Compile Include="Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutoRotate.cs" />
     <Compile Include="Assets/02.scripts/LoadingSceneController.cs" />
     <Compile Include="Assets/02.scripts/MainSceneLoaderBtn.cs" />
-    <Compile Include="Assets/02.scripts/SceneLoaderBtn.cs" />
     <Compile Include="Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets/02.scripts/DialogueSystem.cs" />
     <Compile Include="Assets/02.scripts/DialogueTrigger.cs" />
@@ -81,10 +80,12 @@
     <Compile Include="Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets/02.scripts/SceneLoadTester.cs" />
     <Compile Include="Assets/02.scripts/UIOpenBtn.cs" />
-    <Compile Include="Assets/02.scripts/Test.cs" />
     <Compile Include="Assets/02.scripts/SignUpBtn.cs" />
     <Compile Include="Assets/02.scripts/Tips.cs" />
     <Compile Include="Assets/02.scripts/Inventory.cs" />
+    <Compile Include="Assets/02.scripts/RewardCtr.cs" />
+    <Compile Include="Assets/02.scripts/SceneLoader.cs" />
+    <Compile Include="Assets/02.scripts/BuyCharactor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
