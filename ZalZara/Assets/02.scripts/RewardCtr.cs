@@ -9,6 +9,6 @@ public class RewardCtr : MonoBehaviour
 
     void Start()
     {//디비랑 연동해서 잘 해보세요
-        ScriptTxt.text = "100만포인트";
+        ScriptTxt.text = "100,000,000";
     }
 }
