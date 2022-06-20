@@ -13,8 +13,8 @@ public class DialogueSystem : MonoBehaviour
 
     public void Begin(Dialogue info)
     {
-        sentences.Clear();
-
+/*        sentences.Clear();
+*/
         txtName.text = info.name;
 
         foreach(var sentence in info.sentences)
