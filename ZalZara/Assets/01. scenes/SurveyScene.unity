@@ -2868,7 +2868,7 @@ MonoBehaviour:
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1080, y: 1920}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -13693,7 +13693,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1412680107}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5772043
+  m_Size: 0.5793548
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -14988,6 +14988,7 @@ GameObject:
   - component: {fileID: 1475209335}
   - component: {fileID: 1475209334}
   - component: {fileID: 1475209333}
+  - component: {fileID: 1475209336}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -15060,6 +15061,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1475209336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475209332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b74e5a2e1924945afc434d17636b16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1488311233
 GameObject:
   m_ObjectHideFlags: 0

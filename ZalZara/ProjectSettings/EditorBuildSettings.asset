@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01. scenes/start.unity
     guid: 3d2fd2e67f2fa4246a3e6d1746316faa
-  - enabled: 1
+  - enabled: 0
     path: Assets/01. scenes/SignUp.unity
     guid: beba6a9d9061346988e7211f8259bc47
-  - enabled: 1
+  - enabled: 0
     path: Assets/01. scenes/Login.unity
     guid: 98b10ce17c1af4288b29d3d97df30299
   - enabled: 1
@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01. scenes/main.unity
     guid: a653eda47dc25214ba8083a8bce3174f
-  - enabled: 1
+  - enabled: 0
     path: Assets/01. scenes/BuyingCharacter.unity
     guid: 8da5154f1cb8043d9902a3298ad6932f
   - enabled: 1
