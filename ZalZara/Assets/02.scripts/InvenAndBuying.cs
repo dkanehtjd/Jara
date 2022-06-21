@@ -8,7 +8,7 @@ public class InvenAndBuying : MonoBehaviour
     public GameObject[] animals = new GameObject[5];
 
     // 보유 포인트
-    public int Point = 1400;
+    int Point = 1030;
     // 표시 포인트
     public Text ScriptTxt;
 
@@ -54,7 +54,7 @@ public class InvenAndBuying : MonoBehaviour
 
     public void OneDraw() // 1회 뽑기 버튼을 클릭 시
     {
-        Point = 1100;
+        Point -= 300;
         ScriptTxt.text = Point.ToString();
         if (RandomInt == 1) // RandomInt가 1이라면
         {

@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01. scenes/BuyingCharacter.unity
     guid: 8da5154f1cb8043d9902a3298ad6932f
+  - enabled: 1
+    path: Assets/01. scenes/SurveyScene.unity
+    guid: 1e1b1b033bcb34e128524f17339e85bc
   m_configObjects: {}

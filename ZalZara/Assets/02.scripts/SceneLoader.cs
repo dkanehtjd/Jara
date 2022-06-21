@@ -22,8 +22,8 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("main");
     }
 
-    public void ToBuyingPage()
+    public void ToSurveyScene()
     {
-        //모야모야
+        SceneManager.LoadScene("SurveyScene");
     }
 }
