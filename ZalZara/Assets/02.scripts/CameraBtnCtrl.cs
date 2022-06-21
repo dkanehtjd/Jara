@@ -9,6 +9,8 @@ public class CameraBtnCtrl : MonoBehaviour
     public GameObject subC2;
     public GameObject subC3;
     public GameObject subC4;
+    public GameObject gameObject;
+
 
     public void MainCOn()
     {
@@ -19,6 +21,7 @@ public class CameraBtnCtrl : MonoBehaviour
         subC2.SetActive(false);
         subC3.SetActive(false);
         subC4.SetActive(false);
+        gameObject.SetActive(true);
 
 
     }
@@ -32,6 +35,7 @@ public class CameraBtnCtrl : MonoBehaviour
         subC2.SetActive(false);
         subC3.SetActive(false);
         subC4.SetActive(false);
+        gameObject.SetActive(false);
     }
 
     public void SubCOn2()
@@ -42,6 +46,7 @@ public class CameraBtnCtrl : MonoBehaviour
         subC2.SetActive(true);
         subC3.SetActive(false);
         subC4.SetActive(false);
+        gameObject.SetActive(false);
     }
 
     public void SubCOn3()
@@ -52,6 +57,7 @@ public class CameraBtnCtrl : MonoBehaviour
         subC2.SetActive(false);
         subC3.SetActive(true);
         subC4.SetActive(false);
+        gameObject.SetActive(false);
     }
 
     public void SubCOn4()
@@ -62,6 +68,7 @@ public class CameraBtnCtrl : MonoBehaviour
         subC2.SetActive(false);
         subC3.SetActive(false);
         subC4.SetActive(true);
+        gameObject.SetActive(false);
     }
 
 }

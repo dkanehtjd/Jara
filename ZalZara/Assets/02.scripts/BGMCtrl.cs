@@ -9,12 +9,12 @@ public class BGMCtrl : MonoBehaviour
 
     private void Awake()
     {
-        musics = GameObject.FindGameObjectsWithTag("Music");
+        /*musics = GameObject.FindGameObjectsWithTag("Music");
 
         if(musics.Length>=2)
         {
             Destroy(this.gameObject);
-        }
+        }*/
         DontDestroyOnLoad(transform.gameObject);
         audioSource = GetComponent<AudioSource>();
     }
