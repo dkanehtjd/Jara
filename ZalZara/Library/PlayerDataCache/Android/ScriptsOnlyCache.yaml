@@ -84,7 +84,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2744}
     - Class: 114
-      Script: {instanceID: 24514}
+      Script: {instanceID: 3122}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -120,8 +120,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -143,9 +141,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 3972}
+      Script: {instanceID: 3122}
     - Class: 114
-      Script: {instanceID: 24514}
+      Script: {instanceID: 3974}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -180,8 +178,6 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -220,11 +216,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3070}
     - Class: 114
-      Script: {instanceID: 3398}
+      Script: {instanceID: 3122}
     - Class: 114
-      Script: {instanceID: 3624}
+      Script: {instanceID: 3400}
     - Class: 114
-      Script: {instanceID: 24514}
+      Script: {instanceID: 3626}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -315,19 +311,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2928}
     - Class: 114
-      Script: {instanceID: 3430}
+      Script: {instanceID: 3122}
     - Class: 114
-      Script: {instanceID: 4218}
+      Script: {instanceID: 3432}
     - Class: 114
-      Script: {instanceID: 4290}
+      Script: {instanceID: 4220}
     - Class: 114
-      Script: {instanceID: 4352}
+      Script: {instanceID: 4292}
     - Class: 114
-      Script: {instanceID: 23228}
+      Script: {instanceID: 4354}
     - Class: 114
-      Script: {instanceID: 23256}
+      Script: {instanceID: 16790}
     - Class: 114
-      Script: {instanceID: 24514}
+      Script: {instanceID: 16818}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -396,15 +392,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 3398}
+      Script: {instanceID: 3122}
     - Class: 114
-      Script: {instanceID: 3716}
+      Script: {instanceID: 3400}
     - Class: 114
-      Script: {instanceID: 3958}
+      Script: {instanceID: 3718}
     - Class: 114
-      Script: {instanceID: 3962}
+      Script: {instanceID: 3960}
     - Class: 114
-      Script: {instanceID: 24514}
+      Script: {instanceID: 3964}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -806,6 +802,12 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraResolution
+  - hash:
+      serializedVersion: 2
       Hash: f1f21ceeaa476a3cd9d190dacc2e5790
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1056,12 +1058,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BGMOnBtn
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraResolution
   platform: 13
   scenePathNames:
   - Assets/01. scenes/start.unity

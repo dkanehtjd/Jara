@@ -9,6 +9,7 @@ public class UIOpenBtn : MonoBehaviour
     public GameObject otherGameObject2;
     public GameObject otherGameObject3;
 
+    public AudioSource BtnAudio;
 
     public void GameObjectSetActive()
     {
@@ -16,5 +17,6 @@ public class UIOpenBtn : MonoBehaviour
         otherGameObject1.SetActive(false);
         otherGameObject2.SetActive(false);
         otherGameObject3.SetActive(false);
+        BtnAudio.Play();
     }
 }

@@ -13,10 +13,10 @@ public class DialogueTrigger : MonoBehaviour
         {
             target = GetClickedObject();
 
-            if(target.Equals(gameObject))
+            /*if(target.Equals(gameObject))
             {
                 Trigger();
-            }
+            }*/
         }
     }
     
