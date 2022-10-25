@@ -18,7 +18,7 @@ using UnityEngine.UI;
 using CodeMonkey.Utils;
 using System.Linq;
 
-public class SleepDataCtrl : MonoBehaviour {
+public class SleepDataSystem : MonoBehaviour {
 
     [SerializeField] private Sprite circleSprite;
     private RectTransform graphContainer;
@@ -37,7 +37,7 @@ public class SleepDataCtrl : MonoBehaviour {
         //var avg = students.Average(data => data.Score);
 
         double avg = Math.Round(datalist.Average());
-        Debug.Log("Average: " + avg);
+        //Debug.Log("Average: " + avg);
         txtSleepScore.text = avg.ToString();
     }
 
