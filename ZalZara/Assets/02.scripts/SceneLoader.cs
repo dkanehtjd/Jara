@@ -26,4 +26,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("SurveyScene");
     }
+
+    public void ToSleepDataScene()
+    {
+        SceneManager.LoadScene("SleepDataScene");
+    }
 }

@@ -5,7 +5,9 @@ using UnityEngine;
 public class BGMOnBtn : MonoBehaviour
 {
     public GameObject gameObject;
+    public GameObject gameObject2;
     public GameObject otherGameObject;
+    public GameObject otherGameObject2;
     public GameObject audioGameObject1;
     public GameObject audioGameObject2;
 
@@ -16,7 +18,12 @@ public class BGMOnBtn : MonoBehaviour
     public void GameObjectSetActive()
     {
         gameObject.SetActive(true);
+        gameObject2.SetActive(true);
+
         otherGameObject.SetActive(false);
+        otherGameObject2.SetActive(false);
+
+
         audioGameObject1.SetActive(true);
         audioGameObject2.SetActive(false);
     }
